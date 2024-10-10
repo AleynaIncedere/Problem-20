@@ -28,7 +28,7 @@ export default function Todos() {
     fetchTodos();
   }, []);
 
-  if (loading) return <p>Yükleniyor...</p>;
+  // if (loading) return <p>Yükleniyor...</p>;
   if (error) return <p>Hata: {error}</p>;
 
   return (
